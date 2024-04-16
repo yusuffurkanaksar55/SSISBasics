@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="localhost.NORTHWND"
+  DTS:DTSID="{6EDC1564-C84A-48BF-8F4F-453019CF2A9D}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=localhost;Initial Catalog=NORTHWND;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{6EDC1564-C84A-48BF-8F4F-453019CF2A9D}localhost.NORTHWND;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
